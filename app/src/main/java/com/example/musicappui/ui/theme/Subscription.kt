@@ -46,18 +46,14 @@ fun Subscription(){
                     }
 
                 }
+                Divider(thickness = 1.dp, modifier = Modifier.padding(horizontal = 8.dp))
+                Row (Modifier.padding(vertical=16.dp)){
+                    androidx.compose.material.Icon(imageVector = Icons.Default.AccountBox, contentDescription ="Get a Plan" )
+                    Text(text = "Get a Plan", modifier = Modifier.padding(start = 8.dp))
 
-
-
-            }
-            Divider(thickness = 1.dp, modifier = Modifier.padding(horizontal = 8.dp))
-            Row (Modifier.padding(vertical=16.dp)){
-                androidx.compose.material.Icon(imageVector = Icons.Default.AccountBox, contentDescription ="Get a Plan" )
-                Text(text = "Get a Plan", modifier = Modifier.padding(start = 8.dp))
+                }
 
             }
-
-
         }
 
     }
